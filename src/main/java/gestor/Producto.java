@@ -1,20 +1,18 @@
+package gestor;
+
 /**
  * Clase Producto que representa un producto disponible para reserva.
  */
 public class Producto {
-    /** Identificador único del producto. */
-    private String id;
 
-    /** Nombre del producto. */
-    private String nombre;
+    private String idProducto;
 
-    /** Descripción del producto. */
-    private String descripcion;
+    private String nombreProducto;
 
-    /** Precio del producto. */
-    private double precio;
+    private String descripcionProducto;
 
-    /** Stock disponible del producto. */
+    private double precioProducto;
+
     private int stock;
 
     /**
@@ -27,15 +25,22 @@ public class Producto {
      * @param stock       Cantidad disponible en stock.
      */
     public Producto(String id, String nombre, String descripcion, double precio, int stock) {
-        this.id = id;
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.precio = precio;
+        this.idProducto = id;
+        this.nombreProducto = nombre;
+        this.descripcionProducto = descripcion;
+        this.precioProducto = precio;
         this.stock = stock;
     }
 
+    public Producto(String number, String nintendoSwitch, int i) {
+    }
+
+    public Producto() {
+
+    }
+
     /**
-     * Reduce el stock del producto si hay unidades disponibles.
+     * Metodo que reduce el stock del producto si hay unidades disponibles.
      *
      * @return true si se redujo el stock correctamente, false si no hay stock.
      */
@@ -48,32 +53,32 @@ public class Producto {
     }
 
     /**
-     * Aumenta el stock del producto en una unidad.
+     * Metodo que aumenta el stock del producto en una unidad.
      */
     public void aumentarStock() {
         stock++;
     }
 
     /**
-     * Obtiene el nombre del producto.
+     * Metodo que obtiene el nombre del producto.
      *
      * @return Nombre del producto.
      */
     public String getNombre() {
-        return nombre;
+        return nombreProducto;
     }
 
     /**
-     * Obtiene el precio del producto.
+     * Metodo que obtiene el precio del producto.
      *
      * @return Precio del producto.
      */
     public double getPrecio() {
-        return precio;
+        return precioProducto;
     }
 
     /**
-     * Devuelve el stock actual.
+     * Metodo que devuelve el stock actual.
      *
      * @return Stock disponible.
      */

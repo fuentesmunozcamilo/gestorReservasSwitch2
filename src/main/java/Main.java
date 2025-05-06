@@ -1,10 +1,12 @@
+package gestor;
+
 /**
  * Clase principal para probar la funcionalidad del sistema de reservas.
  */
 public class Main {
     public static void main(String[] args) {
         // Crear un producto
-        Producto producto = new Producto("P001", "Cámara", "Cámara digital 4K", 299.99, 5);
+        Producto producto = new Producto("P001", "Consola", "Nintendo Switch 2", 499.99, 15);
 
         // Crear un usuario
         Usuario cliente = new Usuario("U001", "Camilo", "camilo@email.com", "1234");
@@ -32,5 +34,6 @@ public class Main {
         Administrador admin = new Administrador("A001", "Admin", "admin@email.com", "admin");
         admin.gestionarStock();
         admin.cancelarReserva();
+
     }
 }
