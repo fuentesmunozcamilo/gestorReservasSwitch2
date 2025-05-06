@@ -32,9 +32,30 @@ public class Producto {
         this.stock = stock;
     }
 
+    /**
+     * Constructor de la clase Producto.
+     *
+     * Este constructor está definido con tres parámetros: un String (number), un String (nintendoSwitch),
+     * y un entero (i). Sin embargo, actualmente no realiza ninguna acción, ya que no tiene cuerpo.
+     * Esto podría ser un error o un constructor que se planeaba implementar más adelante.
+     *
+     * Es importante revisar si se desea usar este constructor o eliminarlo si no tiene una implementación
+     * específica o si no se va a utilizar.
+     *
+     * @param number       Un identificador o número asociado al producto (posiblemente su ID).
+     * @param nintendoSwitch El nombre o descripción del producto.
+     * @param i            Una cantidad, precio o cualquier otro dato relacionado con el producto.
+     */
+
     public Producto(String number, String nintendoSwitch, int i) {
     }
-
+    /**
+     * Constructor vacío de la clase Producto.
+     *
+     * Este constructor no hace nada por sí mismo. Su propósito es permitir la creación
+     * de un objeto de la clase Producto sin necesidad de proporcionar valores inmediatos
+     * para los atributos.
+     */
     public Producto() {
 
     }

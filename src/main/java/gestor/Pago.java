@@ -15,7 +15,7 @@ public class Pago {
      *
      * @param idPago         Identificador del pago.
      * @param reservaPago    Reserva asociada al pago.
-     * @param metodoPago     Método de pago utilizado.
+     * @param metodoPago     Metodo de pago utilizado.
      * @param cantidadPagada Monto total pagado.
      * @param estadoPago     Estado actual del pago (ej. Pendiente, Procesado).
      */
@@ -26,7 +26,13 @@ public class Pago {
         this.cantidadPagada = cantidadPagada;
         this.estadoPago = estadoPago;
     }
-
+    /**
+     * Constructor vacío de la clase Pago.
+     *
+     * Este constructor no hace nada por sí mismo. Su propósito es permitir la creación
+     * de un objeto de la clase Pago sin necesidad de proporcionar valores inmediatos
+     * para los atributos.
+     */
     public Pago() {
 
     }

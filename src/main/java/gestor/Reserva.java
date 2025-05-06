@@ -28,6 +28,14 @@ public class Reserva {
         this.estadoReserva = estadoReserva;
     }
 
+    /**
+     * Constructor vacío de la clase Reserva.
+     *
+     * Este constructor no hace nada por sí mismo. Su propósito es permitir la creación
+     * de un objeto de la clase Reserva sin necesidad de proporcionar valores inmediatos
+     * para los atributos.
+     */
+
     public Reserva() {
 
     }
@@ -58,6 +66,16 @@ public class Reserva {
     }
 
     /**
+     * Metodo que establece el estado de la reserva.
+     *
+     * @param estadoReserva Nuevo estado que se asignará a la reserva.
+     */
+
+    public void setEstadoReserva(String estadoReserva) {
+        this.estadoReserva = estadoReserva;
+    }
+
+    /**
      * Metodo que aplica un descuento a la reserva.
      *
      * @param d Objeto Descuento a aplicar.
@@ -65,20 +83,13 @@ public class Reserva {
     public void aplicarDescuento(Descuento d) {
         System.out.println("Descuento aplicado a la reserva: " + d.getPorcentajeDescuento() + "%");
     }
-
-    public String getIdReserva() {
-        return idReserva;
-    }
-
+    /**
+     * Metodo que devuelve el usuario.
+     *
+     * @return Usuario actual.
+     */
     public Usuario getUsuario() {
         return usuario;
     }
 
-    public Producto getProducto() {
-        return producto;
-    }
-
-    public String getFechaReserva() {
-        return fechaReserva;
-    }
 }
