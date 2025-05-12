@@ -26,7 +26,6 @@ public class Usuario {
     }
     /**
      * Constructor vacío de la clase Usuario.
-     *
      * Este constructor no hace nada por sí mismo. Su propósito es permitir la creación
      * de un objeto de la clase Usuario sin necesidad de proporcionar valores inmediatos
      * para los atributos.

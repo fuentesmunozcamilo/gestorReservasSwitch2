@@ -34,11 +34,9 @@ public class Producto {
 
     /**
      * Constructor de la clase Producto.
-     *
      * Este constructor está definido con tres parámetros: un String (number), un String (nintendoSwitch),
      * y un entero (i). Sin embargo, actualmente no realiza ninguna acción, ya que no tiene cuerpo.
      * Esto podría ser un error o un constructor que se planeaba implementar más adelante.
-     *
      * Es importante revisar si se desea usar este constructor o eliminarlo si no tiene una implementación
      * específica o si no se va a utilizar.
      *
@@ -51,7 +49,6 @@ public class Producto {
     }
     /**
      * Constructor vacío de la clase Producto.
-     *
      * Este constructor no hace nada por sí mismo. Su propósito es permitir la creación
      * de un objeto de la clase Producto sin necesidad de proporcionar valores inmediatos
      * para los atributos.

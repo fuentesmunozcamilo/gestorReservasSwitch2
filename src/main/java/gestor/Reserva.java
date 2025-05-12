@@ -30,7 +30,6 @@ public class Reserva {
 
     /**
      * Constructor vacío de la clase Reserva.
-     *
      * Este constructor no hace nada por sí mismo. Su propósito es permitir la creación
      * de un objeto de la clase Reserva sin necesidad de proporcionar valores inmediatos
      * para los atributos.

@@ -28,7 +28,6 @@ public class Pago {
     }
     /**
      * Constructor vacío de la clase Pago.
-     *
      * Este constructor no hace nada por sí mismo. Su propósito es permitir la creación
      * de un objeto de la clase Pago sin necesidad de proporcionar valores inmediatos
      * para los atributos.
