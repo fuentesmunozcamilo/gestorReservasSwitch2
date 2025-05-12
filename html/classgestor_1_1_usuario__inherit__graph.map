@@ -1,0 +1,7 @@
+<map id="gestor.Usuario" name="gestor.Usuario">
+<area shape="rect" id="Node000001" title=" " alt="" coords="96,5,202,31"/>
+<area shape="rect" id="Node000002" href="$classgestor_1_1_administrador.html" title=" " alt="" coords="5,79,146,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,44,90,80,86,77,124,40"/>
+<area shape="rect" id="Node000003" href="$classgestor_1_1_soporte.html" title=" " alt="" coords="170,79,275,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,40,212,77,208,80,170,44"/>
+</map>

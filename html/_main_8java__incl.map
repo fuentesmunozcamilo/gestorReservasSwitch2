@@ -1,0 +1,17 @@
+<map id="src/main/java/Main.java" name="src/main/java/Main.java">
+<area shape="rect" id="Node000001" title=" " alt="" coords="405,5,564,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,111,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="409,34,126,81,125,76,408,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="134,79,275,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="438,34,268,77,266,72,437,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="299,79,404,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="463,34,389,74,386,69,461,29"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="428,79,541,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="487,31,487,63,482,63,482,31"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="565,79,655,105"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="507,29,577,69,574,73,505,34"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="679,79,789,105"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="528,29,678,72,677,77,526,34"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="812,79,936,105"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="552,29,798,74,797,79,551,34"/>
+</map>

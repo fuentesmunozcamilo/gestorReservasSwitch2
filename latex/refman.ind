@@ -1,0 +1,190 @@
+\begin{theindex}
+
+  \item {Administrador}
+    \subitem {gestor.Administrador}, \hyperpage{12}
+  \item {aplicarDescuento}
+    \subitem {gestor.Reserva}, \hyperpage{20}
+    \subitem {gestor.Usuario}, \hyperpage{25}
+  \item {aumentarStock}
+    \subitem {gestor.Producto}, \hyperpage{17}
+
+  \indexspace
+
+  \item {cancelar}
+    \subitem {gestor.Reserva}, \hyperpage{20}
+  \item {cancelarReserva}
+    \subitem {gestor.Administrador}, \hyperpage{12}
+  \item {confirmarPago}
+    \subitem {gestor.Reserva}, \hyperpage{20}
+  \item {consultarEstadoReserva}
+    \subitem {gestor.Usuario}, \hyperpage{26}
+  \item {consultarTicket}
+    \subitem {gestor.Soporte}, \hyperpage{24}
+  \item {contrasena}
+    \subitem {gestor.Usuario}, \hyperpage{26}
+
+  \indexspace
+
+  \item {Descuento}
+    \subitem {gestor.Descuento}, \hyperpage{13}
+
+  \indexspace
+
+  \item {elEstadoDeLaReservaDebeSer}
+    \subitem {gestor.ReservaSteps}, \hyperpage{22}
+  \item {elStockDelProductoDebeSer}
+    \subitem {gestor.ProductoSteps}, \hyperpage{18}
+  \item {elUsuarioCancelaLaReserva}
+    \subitem {gestor.ReservaSteps}, \hyperpage{22}
+  \item {elUsuarioConsultaElStock}
+    \subitem {gestor.ProductoSteps}, \hyperpage{18}
+  \item {email}
+    \subitem {gestor.Usuario}, \hyperpage{26}
+
+  \indexspace
+
+  \item {gestionarStock}
+    \subitem {gestor.Administrador}, \hyperpage{12}
+  \item {gestor}, \hyperpage{9}
+  \item {gestor.Administrador}, \hyperpage{11}
+    \subitem {Administrador}, \hyperpage{12}
+    \subitem {cancelarReserva}, \hyperpage{12}
+    \subitem {gestionarStock}, \hyperpage{12}
+  \item {gestor.Descuento}, \hyperpage{13}
+    \subitem {Descuento}, \hyperpage{13}
+    \subitem {getPorcentajeDescuento}, \hyperpage{13}
+  \item {gestor.Pago}, \hyperpage{14}
+    \subitem {Pago}, \hyperpage{14, 15}
+    \subitem {procesar}, \hyperpage{15}
+    \subitem {reembolsar}, \hyperpage{15}
+  \item {gestor.Producto}, \hyperpage{16}
+    \subitem {aumentarStock}, \hyperpage{17}
+    \subitem {getNombre}, \hyperpage{17}
+    \subitem {getPrecio}, \hyperpage{17}
+    \subitem {getStock}, \hyperpage{17}
+    \subitem {Producto}, \hyperpage{16, 17}
+    \subitem {reducirStock}, \hyperpage{18}
+  \item {gestor.ProductoSteps}, \hyperpage{18}
+    \subitem {elStockDelProductoDebeSer}, \hyperpage{18}
+    \subitem {elUsuarioConsultaElStock}, \hyperpage{18}
+    \subitem {unProductoConUnStockDeUnidades}, \hyperpage{18}
+  \item {gestor.Pruebas}, \hyperpage{19}
+    \subitem {main}, \hyperpage{19}
+  \item {gestor.Reserva}, \hyperpage{19}
+    \subitem {aplicarDescuento}, \hyperpage{20}
+    \subitem {cancelar}, \hyperpage{20}
+    \subitem {confirmarPago}, \hyperpage{20}
+    \subitem {getEstadoReserva}, \hyperpage{20}
+    \subitem {getUsuario}, \hyperpage{21}
+    \subitem {Reserva}, \hyperpage{19, 20}
+    \subitem {setEstadoReserva}, \hyperpage{21}
+  \item {gestor.ReservaSteps}, \hyperpage{21}
+    \subitem {elEstadoDeLaReservaDebeSer}, \hyperpage{22}
+    \subitem {elUsuarioCancelaLaReserva}, \hyperpage{22}
+    \subitem {unaReservaConEstado}, \hyperpage{22}
+  \item {gestor.RunCucumberTest}, \hyperpage{22}
+  \item {gestor.Soporte}, \hyperpage{22}
+    \subitem {consultarTicket}, \hyperpage{24}
+    \subitem {Soporte}, \hyperpage{23}
+    \subitem {verLogs}, \hyperpage{24}
+  \item {gestor.Usuario}, \hyperpage{24}
+    \subitem {aplicarDescuento}, \hyperpage{25}
+    \subitem {consultarEstadoReserva}, \hyperpage{26}
+    \subitem {contrasena}, \hyperpage{26}
+    \subitem {email}, \hyperpage{26}
+    \subitem {id}, \hyperpage{26}
+    \subitem {login}, \hyperpage{26}
+    \subitem {nombre}, \hyperpage{26}
+    \subitem {realizarReserva}, \hyperpage{26}
+    \subitem {Usuario}, \hyperpage{25}
+  \item {getEstadoReserva}
+    \subitem {gestor.Reserva}, \hyperpage{20}
+  \item {getNombre}
+    \subitem {gestor.Producto}, \hyperpage{17}
+  \item {getPorcentajeDescuento}
+    \subitem {gestor.Descuento}, \hyperpage{13}
+  \item {getPrecio}
+    \subitem {gestor.Producto}, \hyperpage{17}
+  \item {getStock}
+    \subitem {gestor.Producto}, \hyperpage{17}
+  \item {getUsuario}
+    \subitem {gestor.Reserva}, \hyperpage{21}
+
+  \indexspace
+
+  \item {id}
+    \subitem {gestor.Usuario}, \hyperpage{26}
+
+  \indexspace
+
+  \item {login}
+    \subitem {gestor.Usuario}, \hyperpage{26}
+
+  \indexspace
+
+  \item {Main}, \hyperpage{14}
+    \subitem {main}, \hyperpage{14}
+  \item {main}
+    \subitem {gestor.Pruebas}, \hyperpage{19}
+    \subitem {Main}, \hyperpage{14}
+
+  \indexspace
+
+  \item {nombre}
+    \subitem {gestor.Usuario}, \hyperpage{26}
+
+  \indexspace
+
+  \item {Pago}
+    \subitem {gestor.Pago}, \hyperpage{14, 15}
+  \item {procesar}
+    \subitem {gestor.Pago}, \hyperpage{15}
+  \item {Producto}
+    \subitem {gestor.Producto}, \hyperpage{16, 17}
+
+  \indexspace
+
+  \item {realizarReserva}
+    \subitem {gestor.Usuario}, \hyperpage{26}
+  \item {reducirStock}
+    \subitem {gestor.Producto}, \hyperpage{18}
+  \item {reembolsar}
+    \subitem {gestor.Pago}, \hyperpage{15}
+  \item {Reserva}
+    \subitem {gestor.Reserva}, \hyperpage{19, 20}
+
+  \indexspace
+
+  \item {setEstadoReserva}
+    \subitem {gestor.Reserva}, \hyperpage{21}
+  \item {Soporte}
+    \subitem {gestor.Soporte}, \hyperpage{23}
+  \item {src/main/java/gestor/Administrador.java}, \hyperpage{27}
+  \item {src/main/java/gestor/Descuento.java}, \hyperpage{27}
+  \item {src/main/java/gestor/Pago.java}, \hyperpage{27}
+  \item {src/main/java/gestor/Producto.java}, \hyperpage{28}
+  \item {src/main/java/gestor/Pruebas.java}, \hyperpage{28}
+  \item {src/main/java/gestor/Reserva.java}, \hyperpage{28}
+  \item {src/main/java/gestor/Soporte.java}, \hyperpage{28}
+  \item {src/main/java/gestor/Usuario.java}, \hyperpage{29}
+  \item {src/main/java/Main.java}, \hyperpage{29}
+  \item {src/test/java/gestor/ProductoSteps.java}, \hyperpage{29}
+  \item {src/test/java/gestor/ReservaSteps.java}, \hyperpage{30}
+  \item {src/test/java/gestor/ReservaTest.java}, \hyperpage{30}
+  \item {src/test/java/gestor/RunCucumberTest.java}, \hyperpage{31}
+
+  \indexspace
+
+  \item {unaReservaConEstado}
+    \subitem {gestor.ReservaSteps}, \hyperpage{22}
+  \item {unProductoConUnStockDeUnidades}
+    \subitem {gestor.ProductoSteps}, \hyperpage{18}
+  \item {Usuario}
+    \subitem {gestor.Usuario}, \hyperpage{25}
+
+  \indexspace
+
+  \item {verLogs}
+    \subitem {gestor.Soporte}, \hyperpage{24}
+
+\end{theindex}

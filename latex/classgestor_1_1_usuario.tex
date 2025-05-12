@@ -1,0 +1,149 @@
+\doxysection{gestor.\+Usuario Class Reference}
+\hypertarget{classgestor_1_1_usuario}{}\label{classgestor_1_1_usuario}\index{gestor.Usuario@{gestor.Usuario}}
+
+
+Inheritance diagram for gestor.\+Usuario\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{classgestor_1_1_usuario__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgestor_1_1_usuario_a7461ebe46feedb6f036da5b5886969d8}{Usuario}} (String \mbox{\hyperlink{classgestor_1_1_usuario_aa80981f5938e9606e2e9cf52e237bb04}{id}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a9eedcc12ff290f380c0c01ae6b814249}{nombre}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a82b87d0a78ec999fe5b3dd1c2334df1f}{email}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a7a9ff76e6450701739f0de164537d75b}{contrasena}})
+\item 
+\mbox{\hyperlink{classgestor_1_1_usuario_a0d36a4f5847845d6d170acb3b22dd3ea}{Usuario}} ()
+\item 
+boolean \mbox{\hyperlink{classgestor_1_1_usuario_a9a148fe38eed0989c16e673005c19acf}{login}} (String \mbox{\hyperlink{classgestor_1_1_usuario_aa80981f5938e9606e2e9cf52e237bb04}{id}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a7a9ff76e6450701739f0de164537d75b}{contrasena}})
+\item 
+void \mbox{\hyperlink{classgestor_1_1_usuario_ab0148a17d02733f73c9bbc40d0afe748}{realizar\+Reserva}} ()
+\item 
+void \mbox{\hyperlink{classgestor_1_1_usuario_a9ec6c65b7cfb985481f6938981da8e91}{consultar\+Estado\+Reserva}} ()
+\item 
+void \mbox{\hyperlink{classgestor_1_1_usuario_a370d1cee0184c098eb07cb1818f9728f}{aplicar\+Descuento}} (\mbox{\hyperlink{classgestor_1_1_descuento}{Descuento}} d)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classgestor_1_1_usuario_aa80981f5938e9606e2e9cf52e237bb04}{id}}
+\item 
+String \mbox{\hyperlink{classgestor_1_1_usuario_a9eedcc12ff290f380c0c01ae6b814249}{nombre}}
+\item 
+String \mbox{\hyperlink{classgestor_1_1_usuario_a82b87d0a78ec999fe5b3dd1c2334df1f}{email}}
+\item 
+String \mbox{\hyperlink{classgestor_1_1_usuario_a7a9ff76e6450701739f0de164537d75b}{contrasena}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase base \doxylink{classgestor_1_1_usuario}{Usuario} que contiene los datos y comportamientos comunes para todos los usuarios del sistema. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classgestor_1_1_usuario_a7461ebe46feedb6f036da5b5886969d8}\index{gestor.Usuario@{gestor.Usuario}!Usuario@{Usuario}}
+\index{Usuario@{Usuario}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{Usuario()}{Usuario()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_a7461ebe46feedb6f036da5b5886969d8} 
+gestor.\+Usuario.\+Usuario (\begin{DoxyParamCaption}\item[{String}]{id}{, }\item[{String}]{nombre}{, }\item[{String}]{email}{, }\item[{String}]{contrasena}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor de la clase \doxylink{classgestor_1_1_usuario}{Usuario}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identificador único del usuario. \\
+\hline
+{\em nombre} & Nombre completo del usuario. \\
+\hline
+{\em email} & Dirección de correo electrónico del usuario. \\
+\hline
+{\em contrasena} & Contraseña de acceso del usuario. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classgestor_1_1_usuario_a0d36a4f5847845d6d170acb3b22dd3ea}\index{gestor.Usuario@{gestor.Usuario}!Usuario@{Usuario}}
+\index{Usuario@{Usuario}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{Usuario()}{Usuario()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_a0d36a4f5847845d6d170acb3b22dd3ea} 
+gestor.\+Usuario.\+Usuario (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor vacío de la clase \doxylink{classgestor_1_1_usuario}{Usuario}.
+
+Este constructor no hace nada por sí mismo. Su propósito es permitir la creación de un objeto de la clase \doxylink{classgestor_1_1_usuario}{Usuario} sin necesidad de proporcionar valores inmediatos para los atributos. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classgestor_1_1_usuario_a370d1cee0184c098eb07cb1818f9728f}\index{gestor.Usuario@{gestor.Usuario}!aplicarDescuento@{aplicarDescuento}}
+\index{aplicarDescuento@{aplicarDescuento}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{aplicarDescuento()}{aplicarDescuento()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_a370d1cee0184c098eb07cb1818f9728f} 
+void gestor.\+Usuario.\+aplicar\+Descuento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgestor_1_1_descuento}{Descuento}}}]{d}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Aplica un descuento al usuario al realizar una reserva.
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & Objeto \doxylink{classgestor_1_1_descuento}{Descuento} que contiene el porcentaje a aplicar. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classgestor_1_1_usuario_a9ec6c65b7cfb985481f6938981da8e91}\index{gestor.Usuario@{gestor.Usuario}!consultarEstadoReserva@{consultarEstadoReserva}}
+\index{consultarEstadoReserva@{consultarEstadoReserva}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{consultarEstadoReserva()}{consultarEstadoReserva()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_a9ec6c65b7cfb985481f6938981da8e91} 
+void gestor.\+Usuario.\+consultar\+Estado\+Reserva (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Consulta el estado actual de una reserva. \Hypertarget{classgestor_1_1_usuario_a9a148fe38eed0989c16e673005c19acf}\index{gestor.Usuario@{gestor.Usuario}!login@{login}}
+\index{login@{login}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_a9a148fe38eed0989c16e673005c19acf} 
+boolean gestor.\+Usuario.\+login (\begin{DoxyParamCaption}\item[{String}]{id}{, }\item[{String}]{contrasena}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Verifica si las credenciales de inicio de sesión coinciden.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID proporcionado. \\
+\hline
+{\em contrasena} & Contraseña proporcionada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si las credenciales coinciden, false en caso contrario. 
+\end{DoxyReturn}
+\Hypertarget{classgestor_1_1_usuario_ab0148a17d02733f73c9bbc40d0afe748}\index{gestor.Usuario@{gestor.Usuario}!realizarReserva@{realizarReserva}}
+\index{realizarReserva@{realizarReserva}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{realizarReserva()}{realizarReserva()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_ab0148a17d02733f73c9bbc40d0afe748} 
+void gestor.\+Usuario.\+realizar\+Reserva (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Realiza una reserva genérica. 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classgestor_1_1_usuario_a7a9ff76e6450701739f0de164537d75b}\index{gestor.Usuario@{gestor.Usuario}!contrasena@{contrasena}}
+\index{contrasena@{contrasena}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{contrasena}{contrasena}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_a7a9ff76e6450701739f0de164537d75b} 
+String gestor.\+Usuario.\+contrasena\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classgestor_1_1_usuario_a82b87d0a78ec999fe5b3dd1c2334df1f}\index{gestor.Usuario@{gestor.Usuario}!email@{email}}
+\index{email@{email}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{email}{email}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_a82b87d0a78ec999fe5b3dd1c2334df1f} 
+String gestor.\+Usuario.\+email\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classgestor_1_1_usuario_aa80981f5938e9606e2e9cf52e237bb04}\index{gestor.Usuario@{gestor.Usuario}!id@{id}}
+\index{id@{id}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_aa80981f5938e9606e2e9cf52e237bb04} 
+String gestor.\+Usuario.\+id\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{classgestor_1_1_usuario_a9eedcc12ff290f380c0c01ae6b814249}\index{gestor.Usuario@{gestor.Usuario}!nombre@{nombre}}
+\index{nombre@{nombre}!gestor.Usuario@{gestor.Usuario}}
+\doxysubsubsection{\texorpdfstring{nombre}{nombre}}
+{\footnotesize\ttfamily \label{classgestor_1_1_usuario_a9eedcc12ff290f380c0c01ae6b814249} 
+String gestor.\+Usuario.\+nombre\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/gestor/\mbox{\hyperlink{_usuario_8java}{Usuario.\+java}}\end{DoxyCompactItemize}

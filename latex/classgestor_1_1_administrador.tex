@@ -1,0 +1,103 @@
+\doxysection{gestor.\+Administrador Class Reference}
+\hypertarget{classgestor_1_1_administrador}{}\label{classgestor_1_1_administrador}\index{gestor.Administrador@{gestor.Administrador}}
+
+
+Inheritance diagram for gestor.\+Administrador\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classgestor_1_1_administrador__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gestor.\+Administrador\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classgestor_1_1_administrador__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgestor_1_1_administrador_ad4050657681dfcbeba2a932dbc62c80e}{Administrador}} (String \mbox{\hyperlink{classgestor_1_1_usuario_aa80981f5938e9606e2e9cf52e237bb04}{id}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a9eedcc12ff290f380c0c01ae6b814249}{nombre}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a82b87d0a78ec999fe5b3dd1c2334df1f}{email}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a7a9ff76e6450701739f0de164537d75b}{contrasena}})
+\item 
+void \mbox{\hyperlink{classgestor_1_1_administrador_ac242fc5f93deefc19d219933c90b7964}{cancelar\+Reserva}} ()
+\item 
+void \mbox{\hyperlink{classgestor_1_1_administrador_a86bd1d16a9706c24912932745b9e06e3}{gestionar\+Stock}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classgestor_1_1_usuario}{gestor.\+Usuario}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgestor_1_1_usuario_a7461ebe46feedb6f036da5b5886969d8}{Usuario}} (String \mbox{\hyperlink{classgestor_1_1_usuario_aa80981f5938e9606e2e9cf52e237bb04}{id}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a9eedcc12ff290f380c0c01ae6b814249}{nombre}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a82b87d0a78ec999fe5b3dd1c2334df1f}{email}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a7a9ff76e6450701739f0de164537d75b}{contrasena}})
+\item 
+\mbox{\hyperlink{classgestor_1_1_usuario_a0d36a4f5847845d6d170acb3b22dd3ea}{Usuario}} ()
+\item 
+boolean \mbox{\hyperlink{classgestor_1_1_usuario_a9a148fe38eed0989c16e673005c19acf}{login}} (String \mbox{\hyperlink{classgestor_1_1_usuario_aa80981f5938e9606e2e9cf52e237bb04}{id}}, String \mbox{\hyperlink{classgestor_1_1_usuario_a7a9ff76e6450701739f0de164537d75b}{contrasena}})
+\item 
+void \mbox{\hyperlink{classgestor_1_1_usuario_ab0148a17d02733f73c9bbc40d0afe748}{realizar\+Reserva}} ()
+\item 
+void \mbox{\hyperlink{classgestor_1_1_usuario_a9ec6c65b7cfb985481f6938981da8e91}{consultar\+Estado\+Reserva}} ()
+\item 
+void \mbox{\hyperlink{classgestor_1_1_usuario_a370d1cee0184c098eb07cb1818f9728f}{aplicar\+Descuento}} (\mbox{\hyperlink{classgestor_1_1_descuento}{Descuento}} d)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classgestor_1_1_usuario}{gestor.\+Usuario}}}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classgestor_1_1_usuario_aa80981f5938e9606e2e9cf52e237bb04}{id}}
+\item 
+String \mbox{\hyperlink{classgestor_1_1_usuario_a9eedcc12ff290f380c0c01ae6b814249}{nombre}}
+\item 
+String \mbox{\hyperlink{classgestor_1_1_usuario_a82b87d0a78ec999fe5b3dd1c2334df1f}{email}}
+\item 
+String \mbox{\hyperlink{classgestor_1_1_usuario_a7a9ff76e6450701739f0de164537d75b}{contrasena}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Esta clase representa a un \doxylink{classgestor_1_1_administrador}{Administrador} que hereda de la clase \doxylink{classgestor_1_1_usuario}{Usuario} y gestiona funcionalidades administrativas dentro de nuestro gestor de reservas. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classgestor_1_1_administrador_ad4050657681dfcbeba2a932dbc62c80e}\index{gestor.Administrador@{gestor.Administrador}!Administrador@{Administrador}}
+\index{Administrador@{Administrador}!gestor.Administrador@{gestor.Administrador}}
+\doxysubsubsection{\texorpdfstring{Administrador()}{Administrador()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_administrador_ad4050657681dfcbeba2a932dbc62c80e} 
+gestor.\+Administrador.\+Administrador (\begin{DoxyParamCaption}\item[{String}]{id}{, }\item[{String}]{nombre}{, }\item[{String}]{email}{, }\item[{String}]{contrasena}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor para crear un \doxylink{classgestor_1_1_administrador}{Administrador}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identificación de administrador. \\
+\hline
+{\em nombre} & Nombre de administrador. \\
+\hline
+{\em email} & Email de administrador. \\
+\hline
+{\em contrasena} & Contraseña de administrador. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classgestor_1_1_administrador_ac242fc5f93deefc19d219933c90b7964}\index{gestor.Administrador@{gestor.Administrador}!cancelarReserva@{cancelarReserva}}
+\index{cancelarReserva@{cancelarReserva}!gestor.Administrador@{gestor.Administrador}}
+\doxysubsubsection{\texorpdfstring{cancelarReserva()}{cancelarReserva()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_administrador_ac242fc5f93deefc19d219933c90b7964} 
+void gestor.\+Administrador.\+cancelar\+Reserva (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que cancela una reserva existente. \Hypertarget{classgestor_1_1_administrador_a86bd1d16a9706c24912932745b9e06e3}\index{gestor.Administrador@{gestor.Administrador}!gestionarStock@{gestionarStock}}
+\index{gestionarStock@{gestionarStock}!gestor.Administrador@{gestor.Administrador}}
+\doxysubsubsection{\texorpdfstring{gestionarStock()}{gestionarStock()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_administrador_a86bd1d16a9706c24912932745b9e06e3} 
+void gestor.\+Administrador.\+gestionar\+Stock (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que gestiona el stock de productos. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/gestor/\mbox{\hyperlink{_administrador_8java}{Administrador.\+java}}\end{DoxyCompactItemize}

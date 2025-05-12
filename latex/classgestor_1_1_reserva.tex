@@ -1,0 +1,124 @@
+\doxysection{gestor.\+Reserva Class Reference}
+\hypertarget{classgestor_1_1_reserva}{}\label{classgestor_1_1_reserva}\index{gestor.Reserva@{gestor.Reserva}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgestor_1_1_reserva_aec587c37271bd9391b9a71571c527afe}{Reserva}} (String id\+Reserva, \mbox{\hyperlink{classgestor_1_1_usuario}{Usuario}} usuario, \mbox{\hyperlink{classgestor_1_1_producto}{Producto}} producto, String fecha\+Reserva, String estado\+Reserva)
+\item 
+\mbox{\hyperlink{classgestor_1_1_reserva_a5f8aa233fc8cb7f3ce65bb8e2bc0281a}{Reserva}} ()
+\item 
+void \mbox{\hyperlink{classgestor_1_1_reserva_a64476e65fdccc229872394ee56d75ebc}{cancelar}} ()
+\item 
+void \mbox{\hyperlink{classgestor_1_1_reserva_acd928b07cd4e87bb84c77a091e0d7df0}{confirmar\+Pago}} ()
+\item 
+String \mbox{\hyperlink{classgestor_1_1_reserva_a3be9f94f1d3cb499a6e4162bb6307c23}{get\+Estado\+Reserva}} ()
+\item 
+void \mbox{\hyperlink{classgestor_1_1_reserva_a58bfd091dcd990d6b17f2d1b1fadce1d}{set\+Estado\+Reserva}} (String estado\+Reserva)
+\item 
+void \mbox{\hyperlink{classgestor_1_1_reserva_ad86df1edfbbe17f806f7c8058fb4ef5d}{aplicar\+Descuento}} (\mbox{\hyperlink{classgestor_1_1_descuento}{Descuento}} d)
+\item 
+\mbox{\hyperlink{classgestor_1_1_usuario}{Usuario}} \mbox{\hyperlink{classgestor_1_1_reserva_afb1736971cd682805ccc8ccfa4281bd8}{get\+Usuario}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase \doxylink{classgestor_1_1_reserva}{Reserva} que representa una reserva realizada por un usuario. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classgestor_1_1_reserva_aec587c37271bd9391b9a71571c527afe}\index{gestor.Reserva@{gestor.Reserva}!Reserva@{Reserva}}
+\index{Reserva@{Reserva}!gestor.Reserva@{gestor.Reserva}}
+\doxysubsubsection{\texorpdfstring{Reserva()}{Reserva()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classgestor_1_1_reserva_aec587c37271bd9391b9a71571c527afe} 
+gestor.\+Reserva.\+Reserva (\begin{DoxyParamCaption}\item[{String}]{id\+Reserva}{, }\item[{\mbox{\hyperlink{classgestor_1_1_usuario}{Usuario}}}]{usuario}{, }\item[{\mbox{\hyperlink{classgestor_1_1_producto}{Producto}}}]{producto}{, }\item[{String}]{fecha\+Reserva}{, }\item[{String}]{estado\+Reserva}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor completo para crear una reserva.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Reserva} & Identificador de la reserva. \\
+\hline
+{\em usuario} & \doxylink{classgestor_1_1_usuario}{Usuario} que realiza la reserva. \\
+\hline
+{\em producto} & \doxylink{classgestor_1_1_producto}{Producto} reservado. \\
+\hline
+{\em fecha\+Reserva} & Fecha de la reserva. \\
+\hline
+{\em estado\+Reserva} & Estado inicial de la reserva. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classgestor_1_1_reserva_a5f8aa233fc8cb7f3ce65bb8e2bc0281a}\index{gestor.Reserva@{gestor.Reserva}!Reserva@{Reserva}}
+\index{Reserva@{Reserva}!gestor.Reserva@{gestor.Reserva}}
+\doxysubsubsection{\texorpdfstring{Reserva()}{Reserva()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classgestor_1_1_reserva_a5f8aa233fc8cb7f3ce65bb8e2bc0281a} 
+gestor.\+Reserva.\+Reserva (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor vacío de la clase \doxylink{classgestor_1_1_reserva}{Reserva}.
+
+Este constructor no hace nada por sí mismo. Su propósito es permitir la creación de un objeto de la clase \doxylink{classgestor_1_1_reserva}{Reserva} sin necesidad de proporcionar valores inmediatos para los atributos. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classgestor_1_1_reserva_ad86df1edfbbe17f806f7c8058fb4ef5d}\index{gestor.Reserva@{gestor.Reserva}!aplicarDescuento@{aplicarDescuento}}
+\index{aplicarDescuento@{aplicarDescuento}!gestor.Reserva@{gestor.Reserva}}
+\doxysubsubsection{\texorpdfstring{aplicarDescuento()}{aplicarDescuento()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_reserva_ad86df1edfbbe17f806f7c8058fb4ef5d} 
+void gestor.\+Reserva.\+aplicar\+Descuento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgestor_1_1_descuento}{Descuento}}}]{d}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que aplica un descuento a la reserva.
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & Objeto \doxylink{classgestor_1_1_descuento}{Descuento} a aplicar. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classgestor_1_1_reserva_a64476e65fdccc229872394ee56d75ebc}\index{gestor.Reserva@{gestor.Reserva}!cancelar@{cancelar}}
+\index{cancelar@{cancelar}!gestor.Reserva@{gestor.Reserva}}
+\doxysubsubsection{\texorpdfstring{cancelar()}{cancelar()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_reserva_a64476e65fdccc229872394ee56d75ebc} 
+void gestor.\+Reserva.\+cancelar (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que cancela la reserva. \Hypertarget{classgestor_1_1_reserva_acd928b07cd4e87bb84c77a091e0d7df0}\index{gestor.Reserva@{gestor.Reserva}!confirmarPago@{confirmarPago}}
+\index{confirmarPago@{confirmarPago}!gestor.Reserva@{gestor.Reserva}}
+\doxysubsubsection{\texorpdfstring{confirmarPago()}{confirmarPago()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_reserva_acd928b07cd4e87bb84c77a091e0d7df0} 
+void gestor.\+Reserva.\+confirmar\+Pago (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que confirma que el pago de la reserva ha sido recibido. \Hypertarget{classgestor_1_1_reserva_a3be9f94f1d3cb499a6e4162bb6307c23}\index{gestor.Reserva@{gestor.Reserva}!getEstadoReserva@{getEstadoReserva}}
+\index{getEstadoReserva@{getEstadoReserva}!gestor.Reserva@{gestor.Reserva}}
+\doxysubsubsection{\texorpdfstring{getEstadoReserva()}{getEstadoReserva()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_reserva_a3be9f94f1d3cb499a6e4162bb6307c23} 
+String gestor.\+Reserva.\+get\+Estado\+Reserva (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que devuelve el estado de la reserva.
+
+\begin{DoxyReturn}{Returns}
+Estado actual de la reserva. 
+\end{DoxyReturn}
+\Hypertarget{classgestor_1_1_reserva_afb1736971cd682805ccc8ccfa4281bd8}\index{gestor.Reserva@{gestor.Reserva}!getUsuario@{getUsuario}}
+\index{getUsuario@{getUsuario}!gestor.Reserva@{gestor.Reserva}}
+\doxysubsubsection{\texorpdfstring{getUsuario()}{getUsuario()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_reserva_afb1736971cd682805ccc8ccfa4281bd8} 
+\mbox{\hyperlink{classgestor_1_1_usuario}{Usuario}} gestor.\+Reserva.\+get\+Usuario (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que devuelve el usuario.
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classgestor_1_1_usuario}{Usuario} actual. 
+\end{DoxyReturn}
+\Hypertarget{classgestor_1_1_reserva_a58bfd091dcd990d6b17f2d1b1fadce1d}\index{gestor.Reserva@{gestor.Reserva}!setEstadoReserva@{setEstadoReserva}}
+\index{setEstadoReserva@{setEstadoReserva}!gestor.Reserva@{gestor.Reserva}}
+\doxysubsubsection{\texorpdfstring{setEstadoReserva()}{setEstadoReserva()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_reserva_a58bfd091dcd990d6b17f2d1b1fadce1d} 
+void gestor.\+Reserva.\+set\+Estado\+Reserva (\begin{DoxyParamCaption}\item[{String}]{estado\+Reserva}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que establece el estado de la reserva.
+
+
+\begin{DoxyParams}{Parameters}
+{\em estado\+Reserva} & Nuevo estado que se asignará a la reserva. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/gestor/\mbox{\hyperlink{_reserva_8java}{Reserva.\+java}}\end{DoxyCompactItemize}

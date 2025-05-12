@@ -1,0 +1,78 @@
+\doxysection{gestor.\+Pago Class Reference}
+\hypertarget{classgestor_1_1_pago}{}\label{classgestor_1_1_pago}\index{gestor.Pago@{gestor.Pago}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgestor_1_1_pago_abfda6ea3f85a99b37580192afecf74e1}{Pago}} (String id\+Pago, \mbox{\hyperlink{classgestor_1_1_reserva}{Reserva}} reserva\+Pago, String metodo\+Pago, double cantidad\+Pagada, String estado\+Pago)
+\item 
+\mbox{\hyperlink{classgestor_1_1_pago_a4e6f3a3eb10297c24040cb51b689cc32}{Pago}} ()
+\item 
+boolean \mbox{\hyperlink{classgestor_1_1_pago_ab971e42d09f59226d0bdb4b9a24a4b39}{procesar}} ()
+\item 
+boolean \mbox{\hyperlink{classgestor_1_1_pago_a6f39a7b797b3e2967f7e7d6820cff481}{reembolsar}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase \doxylink{classgestor_1_1_pago}{Pago} que gestiona los datos del proceso de pago. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classgestor_1_1_pago_abfda6ea3f85a99b37580192afecf74e1}\index{gestor.Pago@{gestor.Pago}!Pago@{Pago}}
+\index{Pago@{Pago}!gestor.Pago@{gestor.Pago}}
+\doxysubsubsection{\texorpdfstring{Pago()}{Pago()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classgestor_1_1_pago_abfda6ea3f85a99b37580192afecf74e1} 
+gestor.\+Pago.\+Pago (\begin{DoxyParamCaption}\item[{String}]{id\+Pago}{, }\item[{\mbox{\hyperlink{classgestor_1_1_reserva}{Reserva}}}]{reserva\+Pago}{, }\item[{String}]{metodo\+Pago}{, }\item[{double}]{cantidad\+Pagada}{, }\item[{String}]{estado\+Pago}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor completo para crear un objeto \doxylink{classgestor_1_1_pago}{Pago} con todos sus datos.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Pago} & Identificador del pago. \\
+\hline
+{\em reserva\+Pago} & \doxylink{classgestor_1_1_reserva}{Reserva} asociada al pago. \\
+\hline
+{\em metodo\+Pago} & Metodo de pago utilizado. \\
+\hline
+{\em cantidad\+Pagada} & Monto total pagado. \\
+\hline
+{\em estado\+Pago} & Estado actual del pago (ej. Pendiente, Procesado). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classgestor_1_1_pago_a4e6f3a3eb10297c24040cb51b689cc32}\index{gestor.Pago@{gestor.Pago}!Pago@{Pago}}
+\index{Pago@{Pago}!gestor.Pago@{gestor.Pago}}
+\doxysubsubsection{\texorpdfstring{Pago()}{Pago()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classgestor_1_1_pago_a4e6f3a3eb10297c24040cb51b689cc32} 
+gestor.\+Pago.\+Pago (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor vacío de la clase \doxylink{classgestor_1_1_pago}{Pago}.
+
+Este constructor no hace nada por sí mismo. Su propósito es permitir la creación de un objeto de la clase \doxylink{classgestor_1_1_pago}{Pago} sin necesidad de proporcionar valores inmediatos para los atributos. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classgestor_1_1_pago_ab971e42d09f59226d0bdb4b9a24a4b39}\index{gestor.Pago@{gestor.Pago}!procesar@{procesar}}
+\index{procesar@{procesar}!gestor.Pago@{gestor.Pago}}
+\doxysubsubsection{\texorpdfstring{procesar()}{procesar()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_pago_ab971e42d09f59226d0bdb4b9a24a4b39} 
+boolean gestor.\+Pago.\+procesar (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que procesa el pago.
+
+\begin{DoxyReturn}{Returns}
+true si se procesa correctamente, false si ocurre un error. 
+\end{DoxyReturn}
+\Hypertarget{classgestor_1_1_pago_a6f39a7b797b3e2967f7e7d6820cff481}\index{gestor.Pago@{gestor.Pago}!reembolsar@{reembolsar}}
+\index{reembolsar@{reembolsar}!gestor.Pago@{gestor.Pago}}
+\doxysubsubsection{\texorpdfstring{reembolsar()}{reembolsar()}}
+{\footnotesize\ttfamily \label{classgestor_1_1_pago_a6f39a7b797b3e2967f7e7d6820cff481} 
+boolean gestor.\+Pago.\+reembolsar (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodo que reembolsa el pago.
+
+\begin{DoxyReturn}{Returns}
+true si el reembolso fue exitoso, false si no se pudo realizar. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/gestor/\mbox{\hyperlink{_pago_8java}{Pago.\+java}}\end{DoxyCompactItemize}
